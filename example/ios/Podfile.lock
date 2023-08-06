@@ -20,23 +20,18 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
-  - MBJSCore_iOS (0.1.4):
-    - AFNetworking (= 4.0.1)
-    - SSZipArchive
   - path_provider (0.0.1):
     - Flutter
   - sqflite (0.0.2):
     - Flutter
     - FMDB (>= 2.7.5)
-  - SSZipArchive (2.2.3)
   - thresh (0.0.1):
+    - AFNetworking (= 4.0.1)
     - Flutter
-    - MBJSCore_iOS
 
 DEPENDENCIES:
   - device_info (from `.symlinks/plugins/device_info/ios`)
   - Flutter (from `Flutter`)
-  - "MBJSCore_iOS (from `git@code.amh-group.com:MBFrontend/Flutter/MBJSCore_iOS.git`, tag `0.1.4`)"
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - thresh (from `.symlinks/plugins/thresh/ios`)
@@ -45,16 +40,12 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - FMDB
-    - SSZipArchive
 
 EXTERNAL SOURCES:
   device_info:
     :path: ".symlinks/plugins/device_info/ios"
   Flutter:
     :path: Flutter
-  MBJSCore_iOS:
-    :git: "git@code.amh-group.com:MBFrontend/Flutter/MBJSCore_iOS.git"
-    :tag: 0.1.4
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   sqflite:
@@ -62,22 +53,15 @@ EXTERNAL SOURCES:
   thresh:
     :path: ".symlinks/plugins/thresh/ios"
 
-CHECKOUT OPTIONS:
-  MBJSCore_iOS:
-    :git: "git@code.amh-group.com:MBFrontend/Flutter/MBJSCore_iOS.git"
-    :tag: 0.1.4
-
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  MBJSCore_iOS: 9ac589002c65e7050aa39e56a9e61cc5ccbe2d04
   path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
   sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
-  SSZipArchive: 62d4947b08730e4cda640473b0066d209ff033c9
-  thresh: 5a862d675660ff0a304e6858278e54efb3f7633d
+  thresh: 70f0c7e03d0f38f10761b9c9413f8d9a2c67f305
 
-PODFILE CHECKSUM: 4a33e3b5a258bf070cea09d4c18bd1932c48aa12
+PODFILE CHECKSUM: 663715e941f9adb426e33bf9376914006f9ea95b
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.9.3
